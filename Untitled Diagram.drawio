@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T13:05:44.309Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="S57drpRD0MtSijiaCzec" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-02T13:15:52.836Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="51MkCB-PCL1NF4jypePQ" version="24.3.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1753" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
             <mxPoint x="219.5" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x0XarADRImUlEt6LpwKz-7" value="Initialize loop vairable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="x0XarADRImUlEt6LpwKz-7" value="Initialize loop variable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x0XarADRImUlEt6LpwKz-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -74,12 +74,6 @@
         </mxCell>
         <mxCell id="x0XarADRImUlEt6LpwKz-24" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="688" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="x0XarADRImUlEt6LpwKz-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="375.5" y="760" as="sourcePoint" />
-            <mxPoint x="375.5" y="830" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="x0XarADRImUlEt6LpwKz-28" value="Check allowance id in&amp;nbsp;&lt;div&gt;sub_allo_counter&lt;/div&gt;&lt;div&gt;for corresponding sub_oid&lt;/div&gt;&lt;div&gt;and if present.&lt;/div&gt;&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;Check caco from&amp;nbsp;&lt;/div&gt;&lt;div&gt;sub_allo_param&lt;/div&gt;&lt;div&gt;in charging contract&lt;/div&gt;&lt;div&gt;for sub_oid&amp;nbsp; if&lt;/div&gt;&lt;div&gt;present&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="260" y="832" width="240" height="208" as="geometry" />
@@ -128,6 +122,21 @@
         </mxCell>
         <mxCell id="x0XarADRImUlEt6LpwKz-46" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="195" y="908" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x0XarADRImUlEt6LpwKz-50" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="x0XarADRImUlEt6LpwKz-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="465" y="730" as="sourcePoint" />
+            <mxPoint x="555" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x0XarADRImUlEt6LpwKz-51" value="Initialize loop variable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="495" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x0XarADRImUlEt6LpwKz-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.375;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="758" as="sourcePoint" />
+            <mxPoint x="380" y="830" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
