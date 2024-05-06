@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-06T10:20:54.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="2vXuqmjh7KoASLyR96NU" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T10:27:51.718Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="XDC08xgL7NTBTkMPjy2e" version="24.3.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="926" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,6 +140,39 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="1849" as="sourcePoint" />
             <mxPoint x="450" y="1799" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4eyrsKKrzkqtE2-U9tnP-38" value="IF CURR_ALLOWANCE_ID&amp;nbsp;&lt;div&gt;IS PRESENT IN CURR_MAP&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="1799" width="240" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="4eyrsKKrzkqtE2-U9tnP-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="571" y="1865" as="sourcePoint" />
+            <mxPoint x="646" y="1865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4eyrsKKrzkqtE2-U9tnP-40" value="DO NOTHING" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="647" y="1835" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4eyrsKKrzkqtE2-U9tnP-41" value="TRUE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="1828" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4eyrsKKrzkqtE2-U9tnP-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="329" y="1864" as="sourcePoint" />
+            <mxPoint x="251" y="1864" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4eyrsKKrzkqtE2-U9tnP-43" value="FALSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="1828" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4eyrsKKrzkqtE2-U9tnP-44" value="APPEND ALLOWANCE_ID IN&lt;div&gt;OUTPUT.TXT&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="131" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4eyrsKKrzkqtE2-U9tnP-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="1932" as="sourcePoint" />
+            <mxPoint x="450" y="2002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
